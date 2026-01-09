@@ -1,13 +1,7 @@
 name: Python Coverage
 on:
   pull_request:
-    branches:
-      - main
-
-permissions:
-  pull-requests: write
-
-
+    branches: [ "main" ]
 jobs:
   python-coverage:
     runs-on: ubuntu-latest
